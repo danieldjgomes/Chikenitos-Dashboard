@@ -1,0 +1,226 @@
+#coin {
+    margin-top: 15px;
+    position: relative;
+    width: 110.506px;
+    height: 114.317px;
+    /* left: 100px;
+    top: 55px; */
+    overflow: visible;
+  }
+
+  #Caminho_1 {
+    fill: rgba(206,137,61,1);
+  }
+  .Caminho_1 {
+    overflow: visible;
+    position: absolute;
+    width: 9.679px;
+    height: 39.668px;
+    left: 98.922px;
+    top: 51.443px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_2 {
+    fill: rgba(230,167,30,1);
+  }
+  .Caminho_2 {
+    overflow: visible;
+    position: absolute;
+    width: 9.621px;
+    height: 20.92px;
+    left: 89.453px;
+    top: 79.889px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_3 {
+    fill: rgba(255,203,90,1);
+  }
+  .Caminho_3 {
+    overflow: visible;
+    position: absolute;
+    width: 106.695px;
+    height: 99.074px;
+    left: 1.905px;
+    top: 1.905px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_4 {
+    fill: rgba(206,137,61,1);
+  }
+  .Caminho_4 {
+    overflow: visible;
+    position: absolute;
+    width: 9.526px;
+    height: 17.3px;
+    left: 80.021px;
+    top: 89.434px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_5 {
+    fill: rgba(230,167,30,1);
+  }
+  .Caminho_5 {
+    overflow: visible;
+    position: absolute;
+    width: 11.45px;
+    height: 15.509px;
+    left: 68.59px;
+    top: 95.321px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_6 {
+    fill: rgba(206,137,61,1);
+  }
+  .Caminho_6 {
+    overflow: visible;
+    position: absolute;
+    width: 13.413px;
+    height: 12.994px;
+    left: 55.253px;
+    top: 99.418px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_7 {
+    fill: rgba(230,167,30,1);
+  }
+  .Caminho_7 {
+    overflow: visible;
+    position: absolute;
+    width: 13.413px;
+    height: 12.994px;
+    left: 41.84px;
+    top: 99.418px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_8 {
+    fill: rgba(206,137,61,1);
+  }
+  .Caminho_8 {
+    overflow: visible;
+    position: absolute;
+    width: 11.45px;
+    height: 15.509px;
+    left: 30.466px;
+    top: 95.32px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_9 {
+    fill: rgba(230,167,30,1);
+  }
+  .Caminho_9 {
+    overflow: visible;
+    position: absolute;
+    width: 9.526px;
+    height: 17.3px;
+    left: 20.958px;
+    top: 89.434px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_10 {
+    fill: rgba(206,137,61,1);
+  }
+  .Caminho_10 {
+    overflow: visible;
+    position: absolute;
+    width: 9.621px;
+    height: 20.92px;
+    left: 11.432px;
+    top: 79.888px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_11 {
+    fill: rgba(230,167,30,1);
+  }
+  .Caminho_11 {
+    overflow: visible;
+    position: absolute;
+    width: 9.679px;
+    height: 39.667px;
+    left: 1.905px;
+    top: 51.443px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_12 {
+    fill: rgba(230,167,30,1);
+  }
+  .Caminho_12 {
+    overflow: visible;
+    position: absolute;
+    width: 83.832px;
+    height: 76.211px;
+    left: 13.337px;
+    top: 13.337px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_13 {
+    fill: rgba(255,203,90,1);
+  }
+  .Caminho_13 {
+    overflow: visible;
+    position: absolute;
+    width: 8.926px;
+    height: 9.926px;
+    left: 78.832px;
+    top: 63.863px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_14 {
+    fill: rgba(255,203,90,1);
+  }
+  .Caminho_14 {
+    overflow: visible;
+    position: absolute;
+    width: 72.4px;
+    height: 64.78px;
+    left: 19.053px;
+    top: 19.053px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_15 {
+    fill: rgba(0,0,0,1);
+  }
+  .Caminho_15 {
+    overflow: visible;
+    position: absolute;
+    width: 87.643px;
+    height: 80.022px;
+    left: 11.432px;
+    top: 11.432px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_16 {
+    fill: rgba(0,0,0,1);
+  }
+  .Caminho_16 {
+    overflow: visible;
+    position: absolute;
+    width: 8.926px;
+    height: 9.926px;
+    left: 78.833px;
+    top: 63.863px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_17 {
+    fill: rgba(0,0,0,1);
+  }
+  .Caminho_17 {
+    overflow: visible;
+    position: absolute;
+    width: 72.4px;
+    height: 64.78px;
+    left: 19.053px;
+    top: 19.053px;
+    transform: matrix(1,0,0,1,0,0);
+  }
+  #Caminho_18 {
+    fill: rgba(0,0,0,1);
+  }
+  .Caminho_18 {
+    overflow: visible;
+    position: absolute;
+    width: 110.506px;
+    height: 114.317px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+  }
