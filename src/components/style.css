@@ -114,8 +114,9 @@ body{
 	justify-content: flex-start;
 	width: 30%;
 	height: 100%;
-	left: 70%;
-	top: 10%;
+	left: 35%;
+	top: 15%;
+	
 }
 .credits {
 	position: relative;
