@@ -157,3 +157,27 @@ body{
 	height: 34px;
 	cursor: pointer;
 }
+
+
+input{
+	background-color: rgb(255, 241, 215);
+	text-align: center;
+	
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+
+.input-symbol-euro {
+	position: relative;
+	}
+	.input-symbol-euro input {
+	padding-right:18px;
+	}
+	.input-symbol-euro:before {
+	position: absolute;
+	top: 0;
+	content:"€";
+	left: 5px;
+	}

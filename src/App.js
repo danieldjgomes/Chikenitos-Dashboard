@@ -5,8 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Coin from './components/Coin'
 import './components/style.css'
 import { ExternalLink } from 'react-external-link';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import Cotacao from './components/Cotacao'
+import CurrencyInput from 'react-currency-input-field';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     const [moedaEur, setEur] = useState(0.00);
     const [moedaBtc, setBtc] = useState(0.00);
 	const [moedaCkn, setCkn] = useState(0.00);
+	const [inputValue, setInputValue] = useState(1.00.toFixed(2));
 	
 
 	function json2array(json){
@@ -26,12 +28,14 @@ function App() {
 		return result;
 	}
 
-	// async function fetchMoedas() {
-	// 	const response = await fetch('https://economia.awesomeapi.com.br/all/USD-BRL,EUR-BRL,BTC-BRL')
-	// 	const json = await response.json
-	// 	 await setBtc(json2array(json))
-	// 	 await console.log(moedaBtc)
-	// }
+	const handleOnChange = useCallback(event => {
+		setInputValue(event.target.value);
+		console.log(event.target.value)
+	  });
+
+	 const handleValue = (inputValue) => {
+	 	return inputValue
+	 }
 
 
 	useEffect(()=> { 
@@ -109,6 +113,12 @@ function App() {
                 </div>
 		</div>
 		<div class="moeda-box">
+			<div class="moeda">
+			Conversão para R$ 
+        	<h2>
+				<input autofocus="true" value = {inputValue} onChange={handleOnChange}/></h2> {isNaN(inputValue) ? "Insira um valor válido" : ` CKN ${(inputValue/moedaCkn).toFixed(2)}`} 
+       
+			</div>
 			<div class="moeda">
 				<Cotacao valor={((moedaCkn/moedaBtc)*Math.pow(10,6)).toFixed(2)} nome="μBitcoin"></Cotacao>
 			</div>
