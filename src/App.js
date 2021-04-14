@@ -7,7 +7,6 @@ import './components/style.css'
 import { ExternalLink } from 'react-external-link';
 import { useEffect, useState, useCallback } from 'react';
 import Cotacao from './components/Cotacao'
-import CurrencyInput from 'react-currency-input-field';
 
 
 function App() {
@@ -33,9 +32,6 @@ function App() {
 		console.log(event.target.value)
 	  });
 
-	 const handleValue = (inputValue) => {
-	 	return inputValue
-	 }
 
 
 	useEffect(()=> { 
@@ -104,7 +100,7 @@ function App() {
 				 
                 </h2>
                 <select class="seletor-relatorio">
-                  <option value="diario" selected>Diario</option>
+                  <option value="diario" defaultValue >Diario</option>
                   <option value="semanal" >Semanal</option>
                   <option value="mensal">Mensal</option>
                 </select>
@@ -116,7 +112,7 @@ function App() {
 			<div class="moeda">
 			Conversão para R$ 
         	<h2>
-				<input autofocus="true" value = {inputValue} onChange={handleOnChange}/></h2> {isNaN(inputValue) ? "Insira um valor válido" : ` CKN ${(inputValue/moedaCkn).toFixed(2)}`} 
+				<input autoFocus={true} value = {inputValue} onChange={handleOnChange}/></h2> {isNaN(inputValue) ? "Insira um valor válido" : ` CKN ${(inputValue/moedaCkn).toFixed(2)}`} 
        
 			</div>
 			<div class="moeda">
